@@ -62,5 +62,10 @@
             <version>3.18.0</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>software.amazon.awscdk</groupId>
+            <artifactId>s3</artifactId>
+            <version>${cdk.version}</version>
+        </dependency>
     </dependencies>
 </project>
